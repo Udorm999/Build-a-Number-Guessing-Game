@@ -94,13 +94,21 @@ INSERT INTO public.users VALUES (2, 'user_1762089628985', 2, 41);
 INSERT INTO public.users VALUES (1, 'user_1762089628986', 5, 192);
 INSERT INTO public.users VALUES (4, 'user_1762089673955', 2, 176);
 INSERT INTO public.users VALUES (3, 'user_1762089673956', 5, 101);
+INSERT INTO public.users VALUES (6, 'user_1762089717414', 2, 667);
+INSERT INTO public.users VALUES (5, 'user_1762089717415', 5, 308);
+INSERT INTO public.users VALUES (8, 'user_1762089770148', 2, 39);
+INSERT INTO public.users VALUES (7, 'user_1762089770149', 5, 62);
+INSERT INTO public.users VALUES (10, 'user_1762089787143', 2, 186);
+INSERT INTO public.users VALUES (9, 'user_1762089787144', 5, 303);
+INSERT INTO public.users VALUES (12, 'user_1762089810829', 2, 598);
+INSERT INTO public.users VALUES (11, 'user_1762089810830', 5, 53);
 
 
 --
 -- Name: users_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.users_user_id_seq', 4, true);
+SELECT pg_catalog.setval('public.users_user_id_seq', 12, true);
 
 
 --
